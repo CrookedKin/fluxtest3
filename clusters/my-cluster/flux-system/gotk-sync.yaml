@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/crookedkin/fluxtest2
+  url: ssh://git@github.com/crookedkin/fluxtest3
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
